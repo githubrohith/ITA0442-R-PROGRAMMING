@@ -1,0 +1,11 @@
+7. Write a R program to print the numbers from 1 to 100 and print &quot;Fizz&quot; for
+multiples of 3, print &quot;Buzz&quot; for multiples of 5, and print &quot;FizzBuzz&quot; for multiples of
+both.
+
+PROGRAMME:
+for (n in 1:100) {
+ if (n %% 3 == 0 & n %% 5 == 0) {print("FizzBuzz")}
+ else if (n %% 3 == 0) {print("Fizz")}
+ else if (n %% 5 == 0) {print("Buzz")}
+ else print(n)
+}
