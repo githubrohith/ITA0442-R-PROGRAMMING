@@ -1,0 +1,13 @@
+10.Write a R program to call the (built-in) dataset airquality. Check whether it is a
+data frame or not? Order the entire data frame by the first and second column.
+remove the variables &#39;Solar.R&#39; and &#39;Wind&#39; and display the data frame.
+
+
+PROGRAMME:
+data = airquality
+print("Original data: Daily air quality measurements in New York, May to September 1973.")
+print(data)
+data[,c("Solar.R")]=NULL
+data[,c("Wind")]=NULL
+print("data.frame after removing 'Solar.R'  and 'Wind' variables:")
+print(data)
